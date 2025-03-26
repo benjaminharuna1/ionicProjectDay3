@@ -1,0 +1,7 @@
+{
+  "name": "ionicProjectDay3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
