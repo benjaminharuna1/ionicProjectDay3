@@ -18,8 +18,8 @@ Ensure you have the following installed:
 
 ### 2️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/benjaminharuna1/ionicProjectDay3.git
+cd ionicProjectDay3
 ```
 
 ### 3️⃣ Install Dependencies

@@ -34,6 +34,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/custom.css';
+import './theme/formStyles.css';
 
 setupIonicReact();
 

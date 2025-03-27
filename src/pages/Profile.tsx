@@ -4,7 +4,7 @@ import {
   IonButton, IonItem, IonLabel, IonSpinner 
 } from '@ionic/react';
 import { ProfileContext } from '../context/ProfileContext';
-import '../theme/formStyles.css'; // Import centralized styles
+import '../theme/formStyles.css'; 
 
 const Profile: React.FC = () => {
   const profileContext = useContext(ProfileContext);
@@ -12,7 +12,7 @@ const Profile: React.FC = () => {
   if (!profileContext) {
     return (
       <IonContent>
-        <p>Error: Profile context is not available.</p>
+        
       </IonContent>
     );
   }
