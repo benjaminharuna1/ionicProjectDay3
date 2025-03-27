@@ -9,3 +9,22 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+
+import { Storage } from '@ionic/storage';
+
+const storage = new Storage();
+storage.create();
+
+
+
+import ReactDOM from 'react-dom';
+
+import { ProfileProvider } from './context/ProfileContext';
+
+ReactDOM.render(
+  <ProfileProvider>
+    <App />
+  </ProfileProvider>,
+  document.getElementById('root')
+);

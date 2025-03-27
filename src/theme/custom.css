@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #4A90E2;  /* Cool Blue */
+    --secondary-color: #50E3C2; /* Fresh Teal */
+    --accent-color: #F5A623;    /* Vibrant Orange */
+    --background-color: #F4F4F6; /* Soft Gray */
+    
+    /* Text Colors */
+    --text-color: #333; /* Dark Gray */
+    --text-light-color: #666; /* Lighter Gray */
+  
+    /* Button Styles */
+    --button-radius: 8px;
+    --button-padding: 12px 20px;
+  
+    /* Shadows */
+    --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Body background */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Styling for IonContent */
+  ion-content {
+    --background: var(--background-color);
+  }
+  
+  /* Buttons */
+  ion-button {
+    border-radius: var(--button-radius);
+    padding: var(--button-padding);
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: var(--box-shadow);
+  }
+  
+  /* Headers */
+  ion-toolbar {
+    --background: var(--primary-color);
+    --color: white;
+  }
+  
+  /* Tab Bar */
+  ion-tab-bar {
+    --background: white;
+    --color: var(--text-light-color);
+    --color-selected: var(--primary-color);
+  }
+  
+  /* List Items */
+  ion-item {
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+  }
+  
+  ion-item:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Input Fields */
+  ion-input {
+    --background: white;
+    --border-radius: 5px;
+    --padding-start: 10px;
+    box-shadow: var(--box-shadow);
+  }
+  
